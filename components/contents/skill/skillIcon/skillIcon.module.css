@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+  .container{
+    gap: 5px;
+  }
+}
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 360px) {
+
+}

@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sideBox {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 5px;
+}
+
+.sideText {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: rgb(179, 227, 179);
+}
+
+.first {
+  color: rgb(120, 120, 223);
+}
+
+.second {
+  color: #d7d7d7;
+}
+
+.input {
+  background-color: inherit;
+  border: 0;
+  color: #d7d7d7;
+  width: 100%;
+  font-size: 17px;
+  flex: 1;
+  font-family: inherit;
+}
+
+.input:focus {
+  outline: none;
+}
+
+@media (max-width: 991px) {
+  .input {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .input {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .input,
+  .sideText {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 414px) {
+  .input,
+  .sideText {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .input,
+  .sideText {
+    font-size: 12px;
+
+  }
+}

@@ -1,0 +1,20 @@
+.container {
+  padding: 0px 10px;
+
+}
+
+.box{
+  display: flex;
+  gap: 5rem;
+  margin: 1.2rem 0;
+}
+
+.text{
+  width: 3.6rem;
+  color: rgb(237, 237, 169);
+}
+
+.value{
+  flex: 1;
+  color: rgb(176, 228, 240);
+}

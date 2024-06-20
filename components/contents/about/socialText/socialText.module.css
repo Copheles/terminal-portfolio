@@ -1,0 +1,35 @@
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #e8ae95;
+}
+
+.goToText {
+  color: rgb(176, 228, 240);
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .iconContainer{
+    font-size:12px;
+  }
+}
+
+@media (max-width: 414px) {
+  .iconContainer{
+    font-size:11px;
+  }
+}
+
+@media (max-width: 360px) {
+  .iconContainer{
+    font-size:10px;
+  }
+}

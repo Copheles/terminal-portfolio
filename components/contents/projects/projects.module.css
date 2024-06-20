@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Honk&family=Oleo+Script+Swash+Caps:wght@400;700&family=Sedan+SC&display=swap");
+
+.container {
+  padding: 8px 0px;
+}
+
+.projectBox {
+  display: flex;
+  gap: 10px;
+  padding: 12px 0px;
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+
+.projectBox:hover {
+  box-shadow: 10px 10px 0 0 #0000003b;
+}
+
+.projectMainBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.projectHeader {
+  display: flex;
+  align-items: center;
+}
+
+.projectName {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 9px 0px;
+  border-radius: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.bulletsBox {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.bullet {
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(205, 201, 201, 0.873);
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+}
+
+.bullet:hover {
+  color: rgb(254, 171, 254);
+}
+
+.projectDescription {
+  padding: 5px;
+  color: rgba(205, 201, 201, 0.873);
+}
+
+.desp {
+  line-height: 1.5;
+}
+
+.linkDiv {
+  margin-top: 10px;
+}
+
+.projectLink {
+  width: max-content;
+  margin-right: 10px;
+}
+
+.techUsed {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.projectLink:hover {
+  color: rgb(217, 237, 238);
+}
+
+.circleMov {
+  color: rgb(229, 187, 240);
+  animation: spin 2s linear infinite;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .projectName {
+    padding: 6px 0px;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+
+  .bullet {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+
+  .techUsed{
+    font-size: 12px;
+  }
+  .bulletsBox {
+    gap: 5px;
+  }
+
+  .desp {
+    font-size: 13px;
+  }
+
+  .projectLink {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 414px) {
+}
+
+@media (max-width: 360px) {
+}

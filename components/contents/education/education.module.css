@@ -1,0 +1,66 @@
+.container {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.eduHeader {
+  color: rgb(238, 205, 173);
+  padding-bottom: 20px;
+}
+
+.qulifications {
+  max-width: 480px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.sideBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(238, 238, 150);
+  border-radius: 50%;
+}
+
+.line {
+  height: 100%;
+  width: 2px;
+  background-color: rgb(251, 249, 247);
+}
+
+span.eduSpan {
+  line-height: 1.5;
+  color: rgb(247, 245, 215);
+  padding: 15px 0px;
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+  .line {
+    width: 1px;
+  }
+}
+
+@media (max-width: 414px) {
+}
+
+@media (max-width: 360px) {
+}

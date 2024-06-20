@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Honk&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap");
+
+.container {
+  font-family: "Honk", system-ui;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+.header {
+  font-size: 150px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    font-size: 130px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 412px) {
+  .header {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+    font-size: 70px;
+  }
+}

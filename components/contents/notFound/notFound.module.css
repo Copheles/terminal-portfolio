@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.notFound {
+  color: #db8d8d;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-size: 17px;
+  font-weight: 600;
+}

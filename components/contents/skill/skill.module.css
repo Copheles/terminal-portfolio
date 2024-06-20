@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Two columns with equal width */
+  grid-gap: 25px; /* Gap between grid items */
+  padding: 20px 10px;
+}
+
+.skillIcon {
+  font-size: 30px;
+}
+
+
+@media (max-width: 991px) {
+  .container {
+    font-size: 14px;
+
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .container {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    font-size: 14px;
+    grid-gap: 18px 15px; 
+    padding: 15px 0px;
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+    font-size: 11px;
+    grid-gap: 15px; 
+  }
+}
+

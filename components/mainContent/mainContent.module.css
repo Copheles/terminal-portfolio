@@ -1,0 +1,73 @@
+.container {
+  opacity: 99;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.sideBox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sideText {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: rgb(179, 227, 179);
+}
+
+.first {
+  color: rgb(120, 120, 223);
+}
+
+.second {
+  color: #d7d7d7;
+}
+
+.input {
+  background-color: inherit;
+  border: 0;
+  color: rgb(183, 218, 226);
+  font-size: 17px;
+  font-family: inherit;
+}
+
+.input:focus {
+  outline: none;
+}
+
+@media (max-width: 991px) {
+  .dateText, .input {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dateText, .input {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .dateText, .input,.sideText {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 414px) {
+  .dateText, .input, .sideText {
+    font-size: 11px;
+
+  }
+}
+
+@media (max-width: 360px) {
+  .dateText, .input, .sideText {
+    font-size: 10px;
+
+  }
+}
+

@@ -1,0 +1,54 @@
+
+.container {
+  width: 40vw;
+  background-color: #300422;
+  color: #d7d7d7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 49vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  opacity: 9999;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 50vw;
+    height: 54vh;
+    font-size:14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 60vw;
+    height: 54vh;
+    font-size:14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 70vw;
+    height: 54vh;
+    font-size:14px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .container {
+    width: 90vw;
+    height: 54vh;
+    font-size:14px;
+  }
+}
+
+
+@media (max-width: 412px) {
+  .container {
+    width: 90vw;
+    height: 60vh;
+    font-size:10px;
+  }
+}
