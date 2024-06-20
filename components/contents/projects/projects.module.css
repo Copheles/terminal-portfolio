@@ -85,6 +85,10 @@
   text-decoration: underline;
 }
 
+.projectLink{
+  color: rgb(176, 228, 240);
+}
+
 .projectLink:hover {
   color: rgb(217, 237, 238);
 }
