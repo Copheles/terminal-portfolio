@@ -31,7 +31,7 @@ const About = () => {
           icon={<FaFacebook />}
           icontext="Facebook"
           text="Copheles_Collin"
-          goToLink="https://www.facebook.com/share/ApGp7AhREG4SXKrS/?mibextid=LQQJ4d"
+          goToLink="https://www.facebook.com/share/fpoFGYhtsJRBLfRg/?mibextid=LQQJ4d"
         />
         <SocialText
           icon={<FaTwitch />}
