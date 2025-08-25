@@ -34,6 +34,7 @@
   font-size: 17px;
   flex: 1;
   font-family: inherit;
+  caret-color: greenyellow;
 }
 
 .input:focus {
@@ -70,6 +71,5 @@
   .input,
   .sideText {
     font-size: 12px;
-
   }
 }

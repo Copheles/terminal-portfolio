@@ -4,8 +4,14 @@
   flex-direction: column;
 }
 
+.title {
+  color: rgb(214, 239, 238);
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
 .qulifications {
-  max-width: 500px;
+  max-width: 800px;
   display: flex;
   gap: 10px;
   position: relative;
@@ -29,13 +35,44 @@
 .line {
   height: 100%;
   width: 2px;
-  background-color: rgb(251, 249, 247);
+  background-color: rgb(147, 222, 239);
 }
 
-span.expSpan {
+.content {
+  flex: 1;
+}
+
+.expSpan {
+  display: block;
   line-height: 1.5;
   color: rgb(214, 239, 238);
-  padding: 15px 0px;
+  padding: 15px 0;
+  position: relative;
+}
+
+.expSpan.clickable {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.expSpan.clickable:hover {
+  color: rgb(147, 222, 239);
+}
+
+.chevron {
+  position: absolute;
+  right: 10px;
+  font-size: 0.8rem;
+}
+
+.details {
+  padding: 10px 15px;
+  margin: 10px 0;
+  background-color: rgba(147, 222, 239, 0.1);
+  border-left: 2px solid rgb(147, 222, 239);
+  border-radius: 0 4px 4px 0;
+  color: rgb(214, 239, 238);
+  line-height: 1.6;
 }
 
 @media (max-width: 991px) {
@@ -52,10 +89,21 @@ span.expSpan {
   .line {
     width: 1px;
   }
+  
+  .expSpan {
+    padding: 10px 0;
+  }
 }
 
 @media (max-width: 414px) {
+  .title {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 360px) {
+  .title {
+    font-size: 1.2rem;
+  }
 }
+
