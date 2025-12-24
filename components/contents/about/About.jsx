@@ -12,7 +12,7 @@ const About = () => {
           <h2>
             Copheles <IoMdCheckmarkCircleOutline className={styles.icon} />
           </h2>
-          <p>Hello world since 2020.</p>
+          <p>Hello world since 2019.</p>
         </div>
       </div>
       <p className={styles.texts}>
