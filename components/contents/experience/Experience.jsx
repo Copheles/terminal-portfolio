@@ -17,15 +17,25 @@ const Experience = () => {
     },
     {
       title:
-        "Assistant Developer specializing in MERN stack, Nest.js, Next.js, and React Native (3 months)",
+        "Assistant Developer specializing in MERN stack, Nest.js, Next.js, and React Native (3 months)n",
       details:
         "As an Assistant Developer, I created various modules and mini-applications for diverse web and mobile platforms. My responsibilities included implementing secure authentication systems with JWT and OAuth, developing comprehensive dashboard interfaces for Project Management Systems, and building responsive UI components with React and Next.js. I also developed RESTful APIs using Node.js, Express, and Nest.js for backend functionality, integrated third-party services and APIs for extended application capabilities, and collaborated on Expo-based React Native applications for iOS and Android platforms.",
+    },
+    {
+      title: "Real-time Live Chat System Demo (Socket.IO, Redis, Docker)",
+      details:
+        "Designed and implemented a real-time live chat demonstration for senior developers using Socket.IO for bi-directional communication. Implemented Redis Pub/Sub to support scalable message broadcasting across multiple server instances and containerized the entire system using Docker to demonstrate production-ready deployment and horizontal scalability concepts.",
     },
     {
       title:
         "Collaborated on enterprise freelance project for short periods (As MERN-stack developer)",
       details:
         "I worked part-time on the development of a Japanese learning platform, where I contributed to implementing an interactive Kanji drawing canvas and enhancing the user interface with responsive and engaging elements. I also assisted in optimizing performance and integrating backend features that supported user learning progress tracking, helping improve both usability and functionality of the platform.",
+    },
+    {
+      title: "Ongoing Projects – FinTech & Ordering System Proof of Concept",
+      details:
+        "Currently working on multiple ongoing projects, including a crypto-based payment platform featuring user savings, interest calculation, and KYC verification workflows. Responsibilities include integrating secure payment logic, implementing user verification flows. In parallel, developing a proof of concept for a QR-based ordering system that enables customers to place orders by scanning QR codes, focusing on real-time order handling, system reliability, and scalable architecture.",
     },
   ];
 

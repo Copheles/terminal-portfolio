@@ -3,7 +3,7 @@ import styles from "./education.module.css";
 const Education = () => {
   return (
     <div className={styles.container}>
-      <h3 className={styles.eduHeader}>BA English in 2019</h3>
+      <h3 className={styles.eduHeader}>BA English in 2018</h3>
       <h3 className={styles.eduHeader}>Other Qualifications:</h3>
       <div className={styles.qulifications}>
         <div className={styles.sideBox}>
